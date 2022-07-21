@@ -11,6 +11,7 @@ import PostTitle from '../../components/post-title'
 import Head from 'next/head'
 import markdownToHtml from '../../lib/markdownToHtml'
 import type PostType from '../../interfaces/post'
+import 'highlight.js/styles/atom-one-light.css'
 
 type Props = {
   post: PostType
