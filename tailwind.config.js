@@ -8,16 +8,10 @@ module.exports = {
   },
   theme: {
     extend: {
-      backgroundImage: {
-        'hero': "url('/assets/bg-photo.jpg')"
-      },
       colors: {
-        'accent-1': '#FAFAFA',
-        'accent-2': '#EAEAEA',
-        'accent-7': '#333',
-        success: '#0070f3',
-        cyan: '#79FFE1',
-        'hero-color': '#FDEC00',
+        'hero-font': '#F5F5F5',
+        'hero-color': '#C65032',
+        'hover-color': '#D3A599',
       },
       spacing: {
         28: '7rem',
@@ -35,8 +29,7 @@ module.exports = {
         '8xl': '6.25rem',
       },
       fontFamily: {
-        'barlow': ['Barlow', ...defaultTheme.fontFamily.sans],
-        'lobster': ['Lobster'],
+        'hindsiliguri': ['Hind Siliguri', ...defaultTheme.fontFamily.serif],
       },
       boxShadow: {
         sm: '0 5px 10px rgba(0, 0, 0, 0.12)',

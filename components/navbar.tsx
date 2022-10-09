@@ -4,20 +4,22 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <header>
-      <div className="grid grid-cols-6 font-barlow h-12 -mt-6">
-        <div className="col-span-4 top-[5rem] font-lobster text-3xl md:text-4xl lg:text-5xl">
+      <div className="flex flex-row justify-between font-hindsiliguri bg-hero-color h-20 items-center text-hero-font">
+        <div className="ml-4 text-2xl md:text-2xl lg:text-4xl">
           Karmen's Data Science Blog
         </div>
-        <div className="col-span-1 grid place-items-center">
+        <div className="grid grid-cols-2 text-xl md:text-xl lg:text-2xl">
+        <div className="mr-8">
           <Link href="/">
-            <button className="bg-hero-color hover:bg-hero-color hover:bg-opacity-50 h-full w-full">Home</button>
+            <button className="hover:bg-hover-color hover:bg-opacity-60 h-12 w-24 md:w-32 rounded">Home</button>
           </Link>
         </div>
-        <div className="col-span-1 grid place-items-center">
+        <div className="">
           <Link href="/about">
-            <button className="bg-hero-color h-12 hover:bg-hero-color hover:bg-opacity-50 h-full w-full">About</button>
+            <button className="hover:bg-hover-color hover:bg-opacity-60 h-12 w-24 md:w-32 rounded">About</button>
           </Link>
         </div>
+      </div>
       </div>
     </header>
   );
