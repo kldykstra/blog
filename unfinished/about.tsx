@@ -16,11 +16,11 @@ export default function() {
                 <Header />
                 <Container >
                     <Navbar />
-                    <div className="grid justify-center my-10 gap-2">
-                        <div className="text-3xl font-hindsiliguri font-zinc-600">
+                    <div className="grid justify-center m-10 gap-2">
+                        <div className="font-hindsiliguri font-zinc-600 text-3xl lg:text-6xl">
                             Welcome!
                         </div>
-                        <div className="font-hindsiliguri max-w-screen-md">
+                        <div className="font-hindsiliguri max-w-screen-lg my-5">
                             After studying Cognitive Science and later Machine Learning, I worked as a data analyst for 5 years at 
                             data providers and SAAS companies, where I queried, crunched, and presented data findings
                             to internal and external clients. After years of simple calculations, I decided to re-apply myself to
